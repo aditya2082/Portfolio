@@ -17,7 +17,7 @@ $(function () {
             // POST values in the background to the script URL
             $.ajax({
                 type: "POST",
-                url: url,
+                url: "/api/send",
                 data: $(this).serialize(),
                 success: function (data) {
                     // data = JSON object that the server returns
