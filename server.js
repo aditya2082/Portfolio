@@ -22,7 +22,7 @@ app.post('/submit-form', (req, res) => {
     service: 'gmail',
     auth: {
       user: 'adityasingh.chandel18@gmail.com', // Replace with your email
-      pass: 'eaaz mpnu vruq hxkb',  // Replace with your email password
+      pass: 'teug ypuv ubuh fljy',  // Replace with your email password
     },
   });
 
